@@ -1,0 +1,37 @@
+/*
+Istruzioni: 
+1. Installate nodejs 
+2. Usate Laravelmix per creare un progetto SASS 
+3. Create una semplice index.html con degli h2, h3 e paragrafi
+4. Applicate agli h2 e h3 lo stesso colore tramite una variabile.
+*/
+
+$var_color: #002e8b;
+$var_color2: #008b13;
+$var_color3: rgb(31, 31, 31);
+$var_color_h4: #7ca8ff;
+$var_color_h5: #9dff00;
+
+body{
+    background-color: $var_color3;
+}
+
+h1 {
+    color: $var_color2;
+}
+
+h2{
+    color: $var_color;
+}
+
+h3 {
+    color: $var_color;
+}
+
+h4{
+    color: $var_color_h4;
+}
+
+h5, p{
+    color: $var_color_h5;
+}
